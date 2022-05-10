@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AEAA,AAAA,OAAO,AAAC,CACN,aAAa,CAAE,iBAAiB,CACjC,AACD,AAAA,eAAe,AAAC,CACd,WAAW,CAAE,MAAM,CACnB,OAAO,CAAE,IAAI,CACb,eAAe,CAAE,aAAa,CAC/B",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/base/_normalize.scss",
+        "../sass/components/_page-header.scss"
+    ],
+    "names": [],
+    "file": "main.min.css"
+}
