@@ -15,7 +15,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
+    <link rel="stylesheet" href="./css/portfolio.min.css" />
   </head>
   <body>
     <!-- Шапка -->
@@ -34,13 +35,13 @@
         <ul class="connection-list">
           <li class="connection-list__item">
             <a href="mailto:info@devstudio.com" class="connection-list__link">
-               <svg class="icon-envelope" width="16" height="12">
+               <svg class="connection-list__icon-envelope" width="16" height="12">
                   <use href="./images/icons.svg#icon-icon-envelope"></use>
               </svg>info@devstudio.com</a>
           </li>
           <li class="connection-list__item">
             <a href="tel:+380961111111" class="connection-list__link">
-               <svg class="icon-smartphone" width="10" height="16">
+               <svg class="connection-list__icon-smartphone" width="10" height="16">
               <use href="./images/icons.svg#icon-icon-smartphone"></use>
             </svg>+38 096 111 11 11</a>
           </li>
@@ -215,40 +216,41 @@
           <ul class="join__list">
             <li class="join__item">
               <a href="" class="join__link">
-                <svg class=footer-instagram" width="20" height="20">
+                <svg class=join__footer-instagram" width="20" height="20">
                   <use href="./images/icons.svg#icon-instagram-2"></use>
                 </svg>
               </a>
             </li>
             <li class="join__item">
               <a href="" class="join__link">
-                <svg class="footer-twitter" width="20" height="20">
+                <svg class="join__footer-twitter" width="20" height="20">
                   <use href="./images/icons.svg#icon-icon-twitter-1"></use>
                 </svg>
               </a>
             </li>
              <li class="join__item">
               <a href="" class="join__link">
-                <svg class="footer-facebook" widht="20" height="20">
+                <svg class="join__footer-facebook" widht="20" height="20">
                   <use href="./images/icons.svg#icon-icon-facebook-1"></use>
                 </svg>
               </a>
             </li>
              <li class="join__item">
               <a href="" class="join__link">
-                <svg class="footer-linkedin" widht="20" height="20">
+                <svg class="join__footer-linkedin" widht="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin-1"></use>
                 </svg>
               </a>
             </li>
            </ul>
           </div>
-           <form class="post-form">
-          <p class="post-title">Подпишитесь на рассылку</p>
-         <div class="input-block">
-            <input type="email" name="email" placeholder="E-mail" class="post-input">
-          <button type="submit" class="post-button">Подписаться
-            <svg class="post-icon" width="24" height="24">
+          <!--Форма-->
+           <form class="form">
+          <p class="form__title">Подпишитесь на рассылку</p>
+         <div class="form__input-block">
+            <input type="email" name="email" placeholder="E-mail" class="form__post">
+          <button type="submit" class="form__button">Подписаться
+            <svg class="form__icon" width="24" height="24">
               <use href="./images/icons.svg#icon-icon-send"></use>
             </svg>
           </button>

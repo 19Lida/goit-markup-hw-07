@@ -1,3 +1,42 @@
 // @import './components/page-header';
 @import './base/normalize';
+
+////////
 @import './components/page-header';
+@import './components/logo';
+@import './components/menu-list';
+@import './components/connection-list';
+@import './components/specifics';
+@import './components/applications';
+@import './components/addition';
+@import './components/team';
+@import './components/caption';
+@import './components/soc';
+@import './components/footer-block';
+@import './components/address-footer';
+@import './components/join';
+@import './components/footer-form';
+@import './components/modal';
+@import './components/backdrop';
+/////////
+@import './common/container';
+@import './common/hero-button';
+@import './common/overlay';
+@import './common/pre-title';
+@import './common/modal-button';
+@import './common/backdrop-form-button';
+@import './common/forma-footer';
+/////////
+@import './layout/header';
+@import './layout/hero';
+@import './layout/specifics';
+@import './layout/application';
+@import './layout/_workers.scss/';
+@import './layout/clients';
+@import './layout/_footer.scss/';
+@import './layout/backdrop';
+//////
+@import './utils/visually-hidden';
+@import './utils/root';
+@import './utils/mixins';
+@import './utils/mixins-footer';
