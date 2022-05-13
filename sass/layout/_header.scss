@@ -1,7 +1,7 @@
 .header {
   border-bottom: 1px solid #ececec;
 }
-.flex-container {
+.header__container {
   align-items: center;
   display: flex;
   justify-content: space-between;
@@ -10,17 +10,17 @@
   display: flex;
   align-items: center;
 }
-.header-logo {
+.header__logo {
   text-decoration: none;
   margin-right: 93px;
   display: flex;
 }
-.logo header-logo {
+.logo header__logo {
   text-decoration: none;
   margin-right: 93px;
   display: flex;
 }
-.header-logo--blue {
+.header__logo-blue {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
@@ -28,7 +28,7 @@
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
-.header-logo--black {
+.header__logo-black {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
@@ -36,7 +36,7 @@
   letter-spacing: 0.03em;
   color: var(--third-title-text-color);
 }
-.menu-listt__link current {
+.menu-list__link current {
   position: absolute;
   width: 48px;
   height: 4px;

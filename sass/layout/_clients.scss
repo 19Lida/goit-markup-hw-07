@@ -1,17 +1,17 @@
-.clients-list {
+.clients {
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
   justify-content: center;
 }
-.clients-list__item {
+.clients__item {
   margin-right: 30px;
 }
-.clients-list__item:last-child {
+.clients__item:last-child {
   margin-right: 0;
 }
-.clients-list__item-link {
+.clients__link {
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
@@ -24,13 +24,8 @@
   border-radius: 4px;
   transition: border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.clients-list__item-link:hover,
-.clients-list__item-link:focus {
+    & :hover,
+      :focus {
   fill: var(--accent-color);
-}
-.clients-list__item-link:hover,
-.clients-list__item-link:focus {
   border-color: var(--accent-color);
 }

@@ -1,7 +1,4 @@
-.section-pictures {
-  padding-top: 0;
-}
-.pre-title {
+.section__title {
   margin-top: 0;
   margin-bottom: 50px;
   font-weight: 700;
@@ -11,16 +8,16 @@
   letter-spacing: 0.03em;
   color: var(--primery-text-color);
 }
-.application-list {
+.application {
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
 }
-.application-list__item {
+.application__item {
   margin-right: 30px;
 }
-.application-list__item:last-child {
+.application__item:last-child {
   margin-right: 0;
 }
 img {
@@ -28,11 +25,11 @@ img {
   max-width: 100%;
   height: auto;
 }
-.addition {
+.application__box {
   position: relative;
   width: 370px;
 }
-.addition__meta {
+.application__meta {
   position: absolute;
   display: flex;
   bottom: 0;
@@ -42,7 +39,7 @@ img {
   justify-content: center;
   align-items: center;
 }
-.addition__name {
+.application__title {
   display: flex;
   align-items: center;
   font-family: 'Roboto';

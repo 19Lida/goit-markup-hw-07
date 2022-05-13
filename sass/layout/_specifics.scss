@@ -15,7 +15,7 @@
   clip-path: inset(50%);
   margin: -1px;
 }
-.features-icon {
+.specifics-list__box {
   display: flex;
   width: 270px;
   height: 120px;
@@ -39,7 +39,7 @@
 .section-link:last-child {
   margin-right: 0;
 }
-.specific-list__item-title {
+.specific-list__title {
   margin-top: 30px;
   margin-bottom: 10px;
   font-weight: 700;
@@ -55,7 +55,7 @@ h3,
 p {
   margin: 0;
 }
-.specific-list__item-text {
+.specific-list__text {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
